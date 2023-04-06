@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Delicious+Handrawn&family=Outfit:wght@300;400;600&family=Roboto:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+}
+
+body {
+    background-color: #0D192C;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Outfit';
+}
+
+.main {
+    background-color: #15263F;
+    width: 350px;
+    height: 596px;
+    border-radius: 15px;
+}
+
+.wrap {
+    position: relative;
+    width: 302px;
+    height: 302px;
+    margin: 24px;
+}
+
+.card {
+    width: inherit;
+    height: inherit;
+    border-radius: 8px;
+}
+
+.hide {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 255, 248, 50.3%);
+    opacity: 0;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+.hide:hover {
+    opacity: 1;
+}
+
+
+.items {
+    margin: 0px 24px 32px 24px;
+}
+
+h1 {
+    color: #FFFFFF;
+    font-size: 22px;
+    line-height: 27.72px;
+}
+
+h1:hover {
+    color: #00FFF8;
+    cursor: pointer;
+}
+
+.review {
+    color: #8BACD9;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 26px;
+    margin-top: 16px;
+    margin-bottom: 24px;
+}
+
+.space, .left {
+    display: flex;
+    justify-content: space-between;
+    gap: 6.49px;
+    color: #8BACD9;
+    line-height: 20.16px;
+}
+
+.crystal {
+    color: #00FFF8;
+    font-weight: 600;
+}
+
+.time {
+    gap: 9.03px;
+}
+
+.end img {
+    width: 33px;
+    height: 33px;
+    border-radius: 50%;
+    border: 1px solid white;
+}
+
+.end, .end ul {
+    display: flex;
+    align-items: center;
+}
+
+.hr {
+    background-color: #2E405A;
+    width: 302px;
+    height: 1px;
+    margin-top: 24px;
+    margin-bottom: 16px;
+}
+
+.bold {
+    color: #8BACD9;
+    line-height: 20.16px;
+    margin-left: 16px;
+}
+.open {
+    color: white;
+    margin-left: 5px;
+}
+
+.open:hover {
+    color: #00FFF8;
+    cursor: pointer;
+}
