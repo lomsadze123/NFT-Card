@@ -82,6 +82,7 @@ h1:hover {
 .space, .left {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     gap: 6.49px;
     color: #8BACD9;
     line-height: 20.16px;
